@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Library</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <header class="header">
+      <h1>Library</h1>
+    </header>
+
+    <div class="books">
+      <ul class="books-list">
+        <li>Name</li>
+        <li>Author</li> 
+        <li>Status</li>
+        <li>Remove</li>
+      </ul>
+      <div class="border-line"></div>
+    </div>
+    <div><button class="add-book">Add Book</button></div>
+    <div id="form"><form class="book-form">
+      <lable for="bname">Book Title:</lable>
+      <input type="text" placeholder="Book-Name" id="bname">
+      <lable for="aname">Author:</lable>
+      <input type="text" placeholder="Author-name" id="aname">
+      <lable for="pages">Pages:</lable>
+      <input type="number" placeholder="Pages in book" id="pages">
+    <button id="submit-book" type="submit">Submit</button>
+    </form>
+  </body>
+</html>
